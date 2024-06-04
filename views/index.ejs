@@ -1,0 +1,38 @@
+<!-- con este fichero, creamos la base de las plantillas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <h1>Cars Pepito</h1>
+    </header>
+
+    <main>
+        <h2><%= h2 %></h2>
+        <section>
+            <% results.forEach(vehiculo => {%>
+            <div class="card<%= vehiculo.tipo %>">
+                <img src="imagenes/img/<%= vehiculo.nombre_modelo %>.webp" alt="<%= vehiculo.nombre_modelo %>">
+                <h3>modelo: <%= vehiculo.nombre_modelo %></h3>
+                <p>personas: <%= vehiculo.personas %></p>
+                <p>puertas: <%= vehiculo.puertas %></p>
+                <p>Cambio: <%= vehiculo.cambio %></p>
+                <p>maletas: <%= vehiculo.maletas %></p>
+                <p>Precio/dia: <p><%= vehiculo.precioDia %></p>
+                <hr>
+                <p>tipo: <%= vehiculo.tipo %></p>
+            </div>
+            <% }); %>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>

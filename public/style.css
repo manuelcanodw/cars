@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+   
+}
+
+h1 {
+   font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cardcoche {
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    padding: 1rem;
+    background-color: lightseagreen;
+}
+
+.cardmoto {
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    padding: 1rem;
+    background-color: rgb(129, 32, 178);
+}
+
+.cardfurgoneta {
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    padding: 1rem;
+    background-color: rgb(107, 178, 32);
+}
+
+
+.cardcoche img {
+    width: 100%;
+}
+.cardfurgoneta img {
+    width: 100%;
+}
+.cardmoto  img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+    position: fixed;
+    bottom: 0;  
+    width: 100%;
+    
+}

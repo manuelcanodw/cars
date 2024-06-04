@@ -1,0 +1,31 @@
+{
+  "name": "ejercicio_coches_practica_preparcial_",
+  "version": "1.0.0",
+  "description": "Nuestros Vehiculos en alquiler- construccion de Cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelcanodw/cars.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "EJS",
+    "Body-parser"
+  ],
+  "author": "Manuel Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelcanodw/cars/issues"
+  },
+  "homepage": "https://github.com/manuelcanodw/cars#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}
